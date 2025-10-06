@@ -45,7 +45,7 @@ const Menu = () => {
     return (
         <section className='Menu bg-amber-50 py-4 px-15 '>
             <h1 className='text-6xl text-center py-10 font-semibold italic text-pink-700'>Menu</h1>
-            <div className='grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-8 '>
+            <div className='grid grid-cols-1 sm:grid-cols-2 md:grid-cols-2 lg:grid-cols-4 gap-8 '>
                 {products.map((product, index) => (
                     <ProductCard key={index}
                                  name={product.name}
