@@ -1,0 +1,27 @@
+@import "tailwindcss";
+*{
+    scroll-behavior: smooth;
+    box-sizing: border-box;
+}
+body{
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+.hero-section {
+    background-image: url('./assets/hero.jpg');
+    background-size: cover;
+    background-position: top;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: justify;
+    padding: 6rem;
+    letter-spacing: 0.50em;
+    opacity: 0.90;
+    filter: brightness(0.75);
+}
+
